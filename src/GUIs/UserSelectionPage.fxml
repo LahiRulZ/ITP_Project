@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="-Infinity" prefWidth="-Infinity" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.UserSelectionPageController">
+   <children>
+      <ImageView fitHeight="-Infinity" fitWidth="-Infinity" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="-277.0" AnchorPane.topAnchor="-187.0">
+         <image>
+            <Image url="@../Images/ITPbackground.jpg" />
+         </image>
+      </ImageView>
+      <ImageView id="user" fitHeight="150.0" fitWidth="200.0" layoutX="345.0" layoutY="259.0" onMouseClicked="#mouseClickEventUser" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/userIcon.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView id="admin" fitHeight="150.0" fitWidth="200.0" layoutX="567.0" layoutY="257.0" onMouseClicked="#mouseClickEventAdmin" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/Admin%20icon.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView id="owner" fitHeight="150.0" fitWidth="200.0" layoutX="805.0" layoutY="264.0" onMouseClicked="#mouseClickEventOwner" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/Owner%20icon.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      
+      <Label id="owner" layoutX="833.0" layoutY="432.0" onMouseClicked="#mouseClickEventOwner" text="OWNER" textFill="#f8f8f8">
+         <font>
+            <Font size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+      <Label id="admin" layoutX="574.0" layoutY="431.0" onMouseClicked="#mouseClickEventAdmin" text="ADMINISTRATOR" textFill="#f8f8f8">
+         <font>
+            <Font size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+      <Label id="user" layoutX="397.0" layoutY="430.0" onMouseClicked="#mouseClickEventUser" text="USER" textFill="#f8f8f8">
+         <font>
+            <Font size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="359.0" prefWidth="167.0" stylesheets="@../Styles/Css.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.SidePaneController">
+   <children>
+      <ImageView fitHeight="88.0" fitWidth="167.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Images/signInPic.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton buttonType="RAISED" prefHeight="31.0" prefWidth="167.0" text="F1" />
+      <JFXButton buttonType="RAISED" prefHeight="31.0" prefWidth="167.0" text="F2" />
+      <JFXButton buttonType="RAISED" prefHeight="31.0" prefWidth="167.0" text="F3" />
+      <JFXButton buttonType="RAISED" prefHeight="31.0" prefWidth="167.0" text="F4" />
+      <JFXButton buttonType="RAISED" prefHeight="31.0" prefWidth="167.0" text="F5" />
+      <JFXButton buttonType="RAISED" prefHeight="31.0" prefWidth="167.0" text="F6" />
+      <JFXButton buttonType="RAISED" prefHeight="31.0" prefWidth="167.0" text="F7" />
+      <JFXButton buttonType="RAISED" prefHeight="31.0" prefWidth="52167.0" text="F8" />
+      <JFXButton buttonType="RAISED" onAction="#exitButtonAction" prefHeight="31.0" prefWidth="167.0" text="Exit" />
+   </children>
+</VBox>
